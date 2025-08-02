@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">⚡</div>
+    <nav>
+      <ul>
+        <li><a href="page2.html">Home</a></li>
+        <li><a href="page2.html">About</a></li>
+        <li><a href="page2.html">Service</a></li>
+        <li><a href="page2.html">Works</a></li>
+      </ul>
+    </nav>
+   
+    <button class="signup-btn" onclick="openSignup()">Sign Up</button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Grow Your Brand. Maximize Your Reach.</h1>
+      <p>We help digital-first companies scale through performance marketing, creative strategy, and data-driven growth.</p>
+      <div class="buttons">
+        <button class="primary">Let’s Talk Strategy</button>
+        <button class="secondary">View Works</button>
+      </div>
+      <div class="stats">
+        <div><strong>+350%</strong><br>avg. increase in ROI</div>
+        <div><strong>92%</strong><br>client retention rate</div>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="https://cdn.dribbble.com/userupload/44239144/file/586439f1c0116a15748b12465c57f33d.png?resize=1024x769&vertical=center" alt="Team working">
+    </div>
+  </section>
+
+  
+  <div class="popup-form" id="popupForm">
+    <div class="form-content">
+      <h2>Sign Up</h2>
+      <input type="email" placeholder="Email ID" id="email">
+      <input type="password" placeholder="Password" id="password">
+
+      <button onclick="submitSignup()">Submit</button>
+      <button onclick="closeSignup()">Close</button>
+    </div>
+  </div>
+
+  <script src="jscript.js"></script>
+</body>
+</html>
+
